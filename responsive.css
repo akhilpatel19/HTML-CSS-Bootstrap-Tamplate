@@ -1,0 +1,105 @@
+@media (max-width: 1551px) {
+  .bg-story{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .carousel-control-prev {
+	left: -90px;
+}
+
+
+  .carousel-control-next {
+	right: -90px;
+}
+
+
+
+}
+@media (max-width: 1199px) {
+  /* laptop */
+  h1{
+    font-size: 35px;
+  }
+
+}
+@media (max-width: 991px) {
+  /* i-pad */
+  .title-text{
+    width: 100%;
+  }
+  .dis-text{
+    width: 100%;
+  }
+
+  
+}
+@media (max-width: 767px) {
+  /* phone vertical */
+  .team{
+    flex-direction: column;
+  }
+  .slide-name{
+    display: none;
+  }
+
+  .slide-img{
+    display: none;
+  }
+
+  .carousel-control-prev {
+	left: -70px;
+}
+
+  .carousel-control-next {
+	right: -70px;
+}
+}
+@media (max-width: 600px) {
+  /* phone horizontal */
+  #home-font{
+    font-size: 30px;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  .portfolio-item{
+    margin-top: 0 !important;
+  }
+
+  .carousel-control-prev {
+	left: -50px;
+}
+
+  .carousel-control-next {
+	right: -50px;
+}
+
+.card-text{
+  width: 50%;
+}
+.whitespace-nowrap{
+  white-space: nowrap;
+}
+
+.col-12 {
+	flex: 0 0 auto;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+}
+
+@media (max-width: 375px){
+    .col-12 {
+	flex: 0 0 auto;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 21px;
+}
+}

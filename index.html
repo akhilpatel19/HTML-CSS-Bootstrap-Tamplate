@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="assest/sitelogo.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f09e3505d1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Business | Bootstrap 5 Business</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="50"  tabindex="0">
+
+  <!--Navbar-->
+  <nav id="main-nav" class="navbar navbar-expand-lg bg-primary navbar-dark p-4 fixed-top">
+    <div class="container-fluid">
+      <a href="#home" class="navbar-brand me-5">
+        <img src="assest/white-logo.svg"  alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-2" id="mynavbar">
+      <ul class="navbar-nav me-auto ms-5">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#servis" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#port" id="" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="#price" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+        <li class="nav-item"><a href="#contect" class="nav-link">Contact</a></li>
+      </ul>
+        <a href="#" id="toggle-menu" class="nav-link me-auto"
+        data-bs-toggle="offcanvas" data-bs-target="#canvas">
+        <i class="fa-solid fa-bars  fa-xl"></i>
+        </a>
+      </div>
+  
+    </div>
+  </nav>
+
+<!--Offcanvas sidebar-->
+<div class="offcanvas offcanvas-end" id="canvas">
+  <div class="offcanvas-header">
+
+    <button class="btn-close text-reset" data-bs-toggle="offcanvas" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <img src="assest/black-logo.svg" alt="">
+    <p class="mt-3">Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi rerum iusto intro.</p>
+    <h5 class="mt-4" style="font-family: Arial, Helvetica, sans-serif;"><b>Quick Links</b></h5>
+    <ul class="nav flex-column">
+      <li class="nav-item" data-bs-dismiss="offcanvas"><a href="#home" class="nav-link active">Home</a></li>
+      <li class="nav-item" data-bs-dismiss="offcanvas"><a href="#team" class="nav-link">Our Team</a></li>
+      <li class="nav-item" data-bs-dismiss="offcanvas"><a href="#servis" class="nav-link">Services</a></li>
+      <li class="nav-item" data-bs-dismiss="offcanvas"><a href="#contect" class="nav-link">Contact Us </a></li>
+    </ul>
+    <h5 class="mt-4 mb-2" style="font-family: Arial, Helvetica, sans-serif;"><b>Follow Us On</b></h5>
+    <div class="icon">
+      <i class="fa-brands fa-facebook fa-xl me-2"></i>
+      <i class="fa-brands fa-square-x-twitter fa-xl me-2"></i>
+      <i class="fa-brands fa-linkedin fa-xl me-2"></i>
+      <i class="fa-brands fa-youtube fa-xl"></i>
+    </div>
+  </div>
+</div>
+
+<!--Home-->
+<div id="top" id="home" class="container-fluid bg-primary home p-5" >
+<div class="row p-sm-3">
+  <!--Col 1-->
+  <div class="col-lg-6 p-sm-5 pt-0">
+    <h1 class="text-white" id="home-font">Corporate & Business Site Template by Ayro UI.</h1>
+    <p class="text-white-50"><b>We are a digital agency that helps brands to achieve their business outcomes. We see technology as a tool to create amazing things.</b></p>
+    <button class="btn btn-lg" id="home-btn">GAT STARTED</button>
+    <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM" class="glightbox video-button">
+      <span class="btn icon-btn">
+        <i class="fa-regular fa-circle-play fa-2xl" style="color: #e8e8e8;"></i>
+        <span class="text-white">Watch Intro</span>
+      </span>
+    </a>
+  </div>
+
+<!--col 2-->
+<div class="col-lg-6">
+  <img src="assest/home-img.jpg" class="rounded" style="width: 100%;" alt="">
+</div>
+ 
+</div>
+</div>
+
+<!--our story-->
+  <div class="container-fluid  p-5 mt-5 mb-5 ">
+    <div class="row">
+
+      <!--column-1-->
+      <div class="col-lg-6">
+        <img src="assest/about-img1.jpg" class="d-block mx-auto me-5 pb-3 rounded" style="width:80%;height: 100%;" alt="">
+      </div>
+
+      <!--column 2-->
+      <div class="col-lg-6 p-5 text-cenetr bg-light rounded">
+        <h5>- OUR STORY</h5>
+        <h1><b>Our team comes with the experience and knowledge</b></h1>
+        <!--Our story buttons-->
+        <div class="bg-story mt-3 p-4 rounded">
+          <button class="btn-story  me-2 p-2 active" data-bs-toggle="collapse" data-bs-target="#who"><b>Who we are</b></button>
+          <button class="btn-story me-2 p-2"  data-bs-toggle="collapse" data-bs-target="#vision"><b>Our Vision</b></button>
+          <button class="btn-story p-2" data-bs-toggle="collapse" data-bs-target="#history"><b>Our History</b></button>
+        </div>
+        <!--collapse data-->
+        <div id="story-collapse-group">
+        <div id="who" class="collapse show" data-bs-parent="#story-collapse-group">
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, look like readable English.</p>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some form, by injected humour.</p>
+        </div>
+        <div id="vision" class="collapse" data-bs-parent="#story-collapse-group">
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some form, by injected humour.</p>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, look like readable English.</p>
+        </div>
+        <div id="history" class="collapse" data-bs-parent="#story-collapse-group">
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, look like readable English.</p>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some form, by injected humour.</p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--our services-->
+  <!--title-->
+  <div id="servis" class="container-fluid  p-5 mt-5 mb-5">
+    <div class="text-center">
+      <kbd class="p-3" style="font-size: larger;background-color: rgb(3, 3, 238);">Services</kbd>
+      <h1 class="mt-4 fw-bold" style="font-family: Georgia, 'Times New Roman', Times, serif;">Our Best Services</h1>
+      <p class="fw-bold">There are many variations of passages of Lorem Ipsum available, but<br> the majority have suffered alteration in some form.</p>
+    </div>
+
+    <div class="container-fluid  mt-5 ">
+      <div class="row d-flex justify-content-center">
+  
+        <!--card1-->
+        <div  class="col-lg-4 col-md-6 ">
+          <div class="border border-1 p-3 p-sm-5  rounded m-2">
+          <img src="assest/capsule.jpeg" width="100px" alt="">
+          <h4>Refreshing Design</h4>
+          <p style="font-weight: 600;">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.</p>
+       </div>
+        </div>
+  
+        <!--card2-->
+        <div  class="col-lg-4 col-md-6 ">
+             <div class="border border-1 p-3 p-sm-5  rounded m-2">
+          <img src="assest/boot.jpeg" width="100px" alt="">
+          <h4>Solid Bootstrap 5</h4>
+          <p style="font-weight: 600;">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.</p>
+          </div>
+        </div>
+  
+        <!--card3-->
+        <div  class="col-lg-4 col-md-6 ">
+           <div class="border border-1 p-3 p-sm-5  rounded m-2">
+          <img src="assest/component.jpg" width="100px" alt="">
+          <h4>100+ Components</h4>
+          <p style="font-weight: 600;">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.</p>
+          </div>
+        </div>
+
+  
+      <!--card4-->
+      <div  class="col-lg-4 col-md-6">
+          <div class="border border-1 p-3 p-sm-5  rounded m-2">
+        <img src="assest/speed2.jpg" width="100px" alt="">
+        <h4>Speed Optimized</h4>
+        <p style="font-weight: 600;">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.</p>
+        </div>
+      </div>
+  
+      <!--card5-->
+      <div  class="col-lg-4 col-md-6">
+        <div class="border border-1 p-3 p-sm-5  rounded m-2">
+        <img src="assest/coustomize.png" width="100px" alt="">
+        <h4>Fully Customizable</h4>
+        <p style="font-weight: 600;">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.</p>
+        </div>
+      </div>
+  
+      <!--card6-->
+      <div  class="col-lg-4 col-md-6">
+         <div class="border border-1 p-3 p-sm-5  rounded m-2">
+        <img src="assest/update.png" width="100px" alt="">
+        <h4>Regular Updates</h4>
+        <p style="font-weight: 600;">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+<!--Intro text-->
+<div class="container-fluid  p-5 mt-5">
+  <div class="text-center">
+    <kbd class="p-3" style="font-size: larger;background-color: rgb(3, 3, 238);">Our Intro Video</kbd>
+    <h1 class="mt-4 fw-bold" style="font-family: Georgia, 'Times New Roman', Times, serif;">Watch Our Promo Video</h1>
+    <p class="fw-bold">There are many variations of passages of Lorem Ipsum available, but<br> the majority have suffered alteration in some form.</p>
+</div>
+</div> 
+
+<!--video-->
+<div class="container-fluid p-2 mb-5">
+  <div class="d-flex justify-content-center">
+    <div class="position-relative promo-img">
+      <!-- Image -->
+      <img src="assest/promo-bg1.png"
+           class="img-fluid img-thumbnail" alt="Promo Video">
+      <!-- Centered Icon -->
+      <a href="https://www.youtube.com/watch?v=your-video-id" target="_blank"
+         class="position-absolute top-50 start-50 translate-middle text-white">
+        <i class="fa-regular fa-circle-play fa-4x" style="color: #007bff;"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!--Portfolio-->
+<div id="port" class="container-fluid  p-5 mt-5">
+
+  <!--portfolio text-->
+  <div class="text-center">
+    <kbd class="p-3" style="font-size: larger;background-color: rgb(3, 3, 238);">Our Portfolio</kbd>
+    <h1 class="mt-4 fw-bold" style="font-family: Georgia, 'Times New Roman', Times, serif;">Our Recent Works</h1>
+    <p class="fw-bold">There are many variations of passages of Lorem Ipsum available, but<br> the majority have suffered alteration in some form.</p>
+</div>
+
+<!--portfolio btn-->
+<!-- Filter Buttons -->
+<div class="d-flex justify-sm-content-center flex-nowrap whitespace-nowrap overflow-auto mb-5">
+  <button class="btn-port active" data-filter="all">ALL WORK</button>
+  <button class="btn-port" data-filter="branding">BRANDING</button>
+  <button class="btn-port" data-filter="marketing">MARKETING</button>
+  <button class="btn-port" data-filter="planning">PLANNING</button>
+  <button class="btn-port" data-filter="research">RESEARCH</button>
+</div>
+
+
+<!--portfolio data-->
+
+<div class="container-fluid  p-3">
+<!-- Portfolio Grid -->
+<div class="row d-flex justify-content-evenly " id="portfolio-grid">
+
+  <!--card1-->
+    <div class="col-lg-4 col-sm-6 portfolio-item branding">
+    <div class="port-card pb-3">
+  <div class="port-wrapper">
+    <img src="assest/graphic.jpg" alt="Team Member" class="img-fluid">
+    <div class="port-overlay">
+      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></i></a>
+      <a href="#"><i class="fa-solid fa-link"></i></a>
+    </div>
+  </div>
+  <h3>Graphics Design</h3>
+  <p>Short description for the ones who look for something new. Awesome!</p>
+</div>
+</div>
+
+  <!--card2-->
+    <div class="col-lg-4 col-sm-6 portfolio-item research">
+    <div class="port-card pb-3">
+  <div class="port-wrapper">
+    <img src="assest/web2.jpg " class="img-fluid" alt="Team Member">
+    <div class="port-overlay">
+      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></i></a>
+      <a href="#"><i class="fa-solid fa-link"></i></a>
+    </div>
+  </div>
+  <h3>Web Development</h3>
+  <p>Short description for the ones who look for something new. Awesome!</p>
+</div>
+</div>
+
+  <!--card3-->
+    <div class="col-lg-4 col-sm-6 portfolio-item mt-3 mt-lg-0 research">
+    <div class="port-card pb-3">
+  <div class="port-wrapper">
+    <img src="assest/app.jpg" class="img-fluid" alt="Team Member">
+    <div class="port-overlay">
+      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></i></a>
+      <a href="#"><i class="fa-solid fa-link"></i></a>
+    </div>
+  </div>
+  <h3>App Development</h3>
+  <p>Short description for the ones who look for something new. Awesome!</p>
+</div>
+</div>
+
+  <!--card4-->
+    <div class="col-lg-4 col-sm-6 portfolio-item  mt-3 marketing">
+    <div class="port-card pb-3">
+  <div class="port-wrapper">
+    <img src="assest/dig-market.jpg" class="img-fluid" alt="Team Member">
+    <div class="port-overlay">
+      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></i></a>
+      <a href="#"><i class="fa-solid fa-link"></i></a>
+    </div>
+  </div>
+  <h3>Digital Marketing</h3>
+  <p>Short description for the ones who look for something new. Awesome!</p>
+</div>
+</div>
+
+  <!--card5-->
+    <div class="col-lg-4 col-sm-6 portfolio-item  mt-3 marketing">
+    <div class="port-card pb-3">
+  <div class="port-wrapper">
+    <img src="assest/seo.png" class="img-fluid" alt="Team Member">
+    <div class="port-overlay">
+      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></i></a>
+      <a href="#"><i class="fa-solid fa-link"></i></a>
+    </div>
+  </div>
+  <h3>SEO Services</h3>
+  <p>Short description for the ones who look for something new. Awesome!</p>
+</div>
+</div>
+
+  <!--card6-->
+    <div class="col-lg-4 col-sm-6 portfolio-item mt-3 planning">
+    <div class="port-card pb-3">
+  <div class="port-wrapper">
+    <img src="assest/product.jpg" class="img-fluid" alt="Team Member">
+    <div class="port-overlay">
+      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></i></a>
+      <a href="#"><i class="fa-solid fa-link"></i></a>
+    </div>
+  </div>
+  <h3>Product Design</h3>
+  <p>Short description for the ones who look for something new. Awesome!</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<!--Pricing-->
+<div id="price" class="container-fluid p-5 bg-light mt-5 ">
+
+  <div class="text-center">
+    <kbd class="p-3" style="font-size: larger;background-color: rgb(3, 3, 238);">Pricing</kbd>
+    <h1 class="mt-4 fw-bold" style="font-family: Georgia, 'Times New Roman', Times, serif;">Pricing & Plans</h1>
+    <p class="fw-bold">There are many variations of passages of Lorem Ipsum available, but<br> the majority have suffered alteration in some form.</p>
+</div>
+
+<div class="row d-flex justify-content-center mt-5">
+
+  <!--price-card-1-->
+  <div class="col-sm-12 col-lg-4">
+          <div class="card card-hover p-3" style="width: 100%;">
+    <div class="card-body text-center">
+     <kbd class="card-title" style="font-size: larger;background-color: rgb(3, 3, 238);color: white;">Starter</kbd>
+     <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and industry.</p>
+     <h2 class="mt-4 amount">
+      <span class="currency">$</span>0<span class="duration">/mo</span>
+     </h2>
+     <button class="btn p-3 fw-bold btn-card mt-4">START FREE TRIAL</button>
+     
+     <ul class="mt-4 text-start" style="list-style-type: none;">
+      <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i> Cras justo odio.</li>
+       <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Dapibus ac facilisis in.</li>
+        <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Morbi leo risus.</li>
+         <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Excepteur sint occaecat velit.</li>
+     </ul>
+    </div>
+  </div>
+  </div>
+
+    <!--price-card-2-->
+    <div class="col-sm-12 col-lg-4">
+          <div class="card card-hover p-3" style="width: 100%;">
+    <div class="card-body text-center">
+     <kbd class="card-title" style="font-size: larger;background-color: rgb(3, 3, 238);color: white;">Exclusive</kbd>
+     <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and industry.</p>
+     <h2 class="mt-4 amount">
+      <span class="currency">$</span>99<span class="duration">/mo</span>
+     </h2>
+     <button class="btn p-3 fw-bold btn-card mt-4 active">START FREE TRIAL</button>
+     
+     <ul class="mt-4 text-start" style="list-style-type: none;">
+      <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i> Cras justo odio.</li>
+       <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Dapibus ac facilisis in.</li>
+        <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Morbi leo risus.</li>
+         <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Excepteur sint occaecat velit.</li>
+     </ul>
+    </div>
+  </div>
+    </div>
+
+    <!--card-3-->
+      <div class="col-lg-4 col-sm-12">
+    <div class="card card-hover p-3" style="width: 100%;">
+    <div class="card-body text-center">
+     <kbd class="card-title" style="font-size: larger;background-color: rgb(3, 3, 238);color: white;">Premium</kbd>
+     <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and industry.</p>
+     <h2 class="mt-4 amount">
+      <span class="currency">$</span>150<span class="duration">/mo</span>
+     </h2>
+     <button class="btn p-3 fw-bold btn-card mt-4">START FREE TRIAL</button>
+     
+     <ul class="mt-4 text-start" style="list-style-type: none;">
+      <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i> Cras justo odio.</li>
+       <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Dapibus ac facilisis in.</li>
+        <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Morbi leo risus.</li>
+         <li><i class="fa-solid fa-square-check" style="color: #145ddb;"></i>  Excepteur sint occaecat velit.</li>
+     </ul>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+</div>
+
+
+<!--Our Team-->
+
+<div id="team" class="container-fluid  mt-5">
+
+  <div class="text-center">
+    <kbd class="p-3" style="font-size: larger;background-color: rgb(3, 3, 238);">Customer Reviews</kbd>
+    <h1 class="mt-4 fw-bold" style="font-family: Georgia, 'Times New Roman', Times, serif;">Our Testimonials</h1>
+    <p class="fw-bold">There are many variations of passages of Lorem Ipsum available, but<br> the majority have suffered alteration in some form.</p>
+</div>
+
+<div class="container-fluid mt-5">
+  
+  <div class="d-flex justify-content-center align-items-center team direction-column">
+
+    <!--member 1-->
+  <div class="team-card">
+  <div class="image-wrapper">
+    <img src="assest/profile1.jpg" class="img-fluid" alt="Team Member">
+    <div class="team-overlay">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+  <h3>Jeffery Riley</h3>
+  <p>Ui UX Designer</p>
+    <p><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star-half-stroke fa-lg" style="color: #FFD43B;"></i></p>
+  <p>On the other hand denoun with righteous<br> and disliks men who are beguiled demorae momentc blinded by desire that can</p>
+</div>
+
+ <!--member 2-->
+ <div class="team-card">
+  <div class="image-wrapper">
+    <img src="assest/profile2.jpg" class="img-fluid" alt="Team Member">
+    <div class="team-overlay">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+  <h3>Riley Beata</h3>
+  <p>Web Developer</p>
+    <p><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i></p>
+<p>On the other hand denoun with righteous<br> and disliks men who are beguiled demorae momentc blinded by desire that can</p>
+</div>
+
+  <!--member 3-->
+  <div class="team-card">
+  <div class="image-wrapper">
+    <img src="assest/profile3.jpg" class="img-fluid alt="Team Member">
+    <div class="team-overlay">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+  <h3>Mark Alone</h3>
+  <p>App Developer</p>
+  <p><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i><i class="fa-solid fa-star-half-stroke fa-lg" style="color: #FFD43B;"></i></p>
+  <p>On the other hand denoun with righteous<br> and disliks men who are beguiled demorae momentc blinded by desire that can</p>
+</div>
+</div>
+  </div>
+</div>
+
+<!--our team msg-->
+ <div class="msg-container mt-5  pb-5">
+<img src="assest/h500.jpg" class="img-fluid" alt="">
+<div class="title-text"><h1 class="fw-bold">We love to make perfect<br>
+solutions for your business</h1></div>
+
+<div class="dis-text"><p class="fw-bold">Why I say old chap that is, spiffing off his nut cor blimey guvnords geeza<br>
+bloke knees up bobby, sloshed arse William cack Richard. Bloke fanny around<br> chesed of bum bag old lost the pilot say there spiffing off his nut.</p></div>
+
+<div class="msg-btn">
+        <button class="btn p-3 fw-bold">GET STARTED</button>
+</div>
+
+ </div>
+
+
+
+
+
+</div>
+
+<!--latest news-->
+<div class="container-fluid p-5 mt-5">
+    <div class="text-center">
+    <kbd class="p-3" style="font-size: larger;background-color: rgb(3, 3, 238);">latest news</kbd>
+    <h1 class="mt-4 fw-bold" style="font-family: Georgia, 'Times New Roman', Times, serif;">Latest News & Blog</h1>
+    <p class="fw-bold">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.<br> the majority have suffered alteration in some form.</p>
+</div>
+
+<div class="container-fluid ">
+  <div class="row  overflow-hidden news">
+
+    <!--news1-->
+    <div class="col-sm-12 col-lg-4  p-0">
+      <div class="position-relative overflow-hidden rounded-3 mx-2 mb-3">
+      <img src="assest/news1.jpg" class="img-fluid"  alt="">
+      <div class="author">
+        <img src="assest/author1.jpg" alt="">
+        <span>BY TIM NORTON</span>
+      </div>
+      </div>
+    </div>
+
+        <!--news1-->
+    <div class="col-sm-12 col-lg-4  p-0 " >
+           <div class="position-relative overflow-hidden rounded-3 mx-2 mb-3">
+      <img src="assest/news3.jpg" class="img-fluid "  alt="">
+      <div class="author">
+        <img src="assest/news3.jpg" alt="">
+        <span>BY TIM NORTON</span>
+      </div>
+      </div>
+    </div>
+
+        <!--news1-->
+    <div class="col-sm-12 col-lg-4  p-0 ">
+       <div class="position-relative overflow-hidden rounded-3 mx-2 mb-3">
+      <img src="assest/news1.jpg" class="img-fluid "  alt="">
+      <div class="author">
+        <img src="assest/author1.jpg" alt="">
+        <span>BY TIM NORTON</span>
+      </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+</div>
+
+
+<div class="container-fluid  bg-light">
+  <div class="row p-5 d-flex justify-content-evenly">
+
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <img src="assest/logo.jpg" width="200px" alt="">
+      <p class="mt-4">Making the world a better place through<br> constructing elegant hierarchies. </p>
+      <p>Copywright © 2025 Designed and <br>Developed by <a class="fw-bold" href="https://www.instagram.com/_.akhil._019/profilecard/?igsh=MWZ0OWE1ZnJuand1cg==" style="text-decoration: none;">Akhil Mendapara</a>.</p>
+    </div>
+
+      <div class="col-lg-2 col-md-6 col-12">
+    <h3>Solutions</h3>
+    <ul class="nav flex-column">
+      <li  class="nav-item">
+        <a href="#" class="nav-link text-dark">Marketing</a>
+      </li>
+      <li  class="nav-item">
+        <a href="#" class="nav-link text-dark">Analytics</a>
+      </li>
+      <li  class="nav-item">
+        <a href="#" class="nav-link text-dark">Commerce</a>
+      </li>
+      <li  class="nav-item">
+        <a href="#" class="nav-link text-dark">Insights</a>
+      </li>
+    </ul>
+  </div>
+
+        <div class="col-lg-2 col-md-6 col-12 mt-md-3 ">
+    <h3>Support</h3>
+    <ul class="nav flex-column">
+      <li  class="nav-item">
+        <a href="#" class="nav-link text-dark">Pricing</a>
+      </li>
+      <li  class="nav-item">
+        <a href="#" class="nav-link text-dark">Documentation</a>
+      </li>
+      <li  class="nav-item">
+        <a href="#" class="nav-link text-dark">Guides</a>
+      </li>
+      <li  class="nav-item">
+        <a href="#" class="nav-link text-dark">API Status</a>
+      </li>
+    </ul>
+  </div>
+
+        <div class="col-lg-3 col-md-6 mt-md-3  col-12">
+    <h3>Subscribe</h3>
+      <p>Subscribe to our newsletter for the<br> latest updates</p>
+     <form>
+<div class="input-group">
+  <span class="input-group-text bg-white border-end-0">
+    <i class="fa-solid fa-envelope text-primary"></i>
+  </span>
+  <input type="email" class="form-control border-start-0" placeholder="Email" required="required">
+  <button type="submit" class="btn btn-primary">Send</button>
+</div>
+</form>
+
+  </div>
+
+  </div>
+</div>
+
+
+<!-- Scroll to Top Button -->
+<a href="#top"  class="btn btn-primary scroll-top" style="z-index: 999;">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+  <script>
+
+    //for our story
+    const storyButtons = document.querySelectorAll('.btn-story');
+    storyButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove "active" class from all buttons
+        storyButtons.forEach(btn => btn.classList.remove('active'));
+  
+        // Add "active" class to the clicked button
+        button.classList.add('active');
+      });
+    });
+
+    //for port btn
+    const portButtons = document.querySelectorAll('.btn-port');
+    portButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove "active" class from all buttons
+        portButtons.forEach(btn => btn.classList.remove('active'));
+  
+        // Add "active" class to the clicked button
+        button.classList.add('active');
+      });
+    });
+
+    //for port img toggle
+  const buttons = document.querySelectorAll(".btn-port");
+  const items = document.querySelectorAll(".portfolio-item");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const filter = button.getAttribute("data-filter");
+
+      // Highlight active button
+      buttons.forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      // Show/hide items
+      items.forEach(item => {
+        if (filter === "all" || item.classList.contains(filter)) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    });
+  });
+  
+  </script>
+
+</body>
+</html>
